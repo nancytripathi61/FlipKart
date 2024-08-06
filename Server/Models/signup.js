@@ -12,12 +12,12 @@ let userSchema = mongoose.Schema({
         type:String,
         require:true
     },
-    role:{
-        type:String,
-         enum:['user','admin'],
-         default:"user"
-    }
+    // role:{
+    //     type:String,
+    //      enum:['user','admin'],
+    //      default:"user"
+    // }
 })
 
-let user = mongoose.model('Product',userSchema)
+let user = mongoose.model('User',userSchema)
 module.exports=user

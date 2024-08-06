@@ -1,0 +1,29 @@
+.popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.form{
+    border: 2px solid black;
+    width: 22vw;
+    margin-top: 2vw;
+    height: 22vw;
+    padding: 2vw 1vw;
+}
+
+#closesignup{
+    display: inline-block;
+    margin-left: 12vw;
+}
+
+.inp{
+    margin-top: 2px;
+    width: 20vw;
+}
+#button{
+    position: absolute;
+    top: 27vw;
+    width: 20vw;
+    height: 2vw;
+ }

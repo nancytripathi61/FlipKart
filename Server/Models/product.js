@@ -2,33 +2,33 @@ let mongoose = require('mongoose')
 let productSchema = mongoose.Schema({
     name:{
         type:String,
-        require:true
+        // require:true
     },
     description:{
         type:String,
-        require:true
+        // require:true
     },
-    cost:{
-        type:String,
-        require:true
+    price:{
+        type:Number,
+        // require:true
     },
     image:{
         type:String,
-        require:true
+        // require:true
     },
    brand:{
         type:String,
-        require:true
+        // require:true
     },
-    //  category: 
-    //  { 
-    //     type: mongoose.Schema.Types.ObjectId,
-    //     ref: 'Category',
-    //     required: true
-    //  },
+     category: 
+     { 
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Category',
+        // required: true
+     },
      countInStock: { 
         type: Number, 
-        required: true, 
+        // required: true, 
         default: 0 
     },
     rating: 
@@ -46,5 +46,5 @@ let productSchema = mongoose.Schema({
    
 
 
-let product = mongoose.model('User',productSchema)
+let product = mongoose.model('Product',productSchema)
 module.exports=product

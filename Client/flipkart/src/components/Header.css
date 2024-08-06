@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #b3c1ee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    
+}
+
+#inp{
+    width: 30rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border: none;
+    height: 1.5rem;
+}
+nav a{
+    text-decoration: none;
+    color: #ffff;
+}

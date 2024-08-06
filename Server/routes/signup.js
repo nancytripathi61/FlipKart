@@ -12,7 +12,7 @@ router.get('/',(req,res)=>{
     res.send('heheeh')
 
 })
-router.post('/signup',async (req,res)=>{
+router.post('/users',async (req,res)=>{
   console.log(req.body);
   let {name,email,password} = req.body
   let user = await User.findOne({email})  //to find whether your email is exist or not
